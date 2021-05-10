@@ -1,0 +1,36 @@
+body{
+    margin:50px;
+}
+.doc{
+    text-align:left;
+}
+.blog{
+    width:80%;
+}
+.blog th{
+    background:#38e031;
+}
+.blog tr:nth-child(odd){
+    
+    background:#03d26d;
+
+}
+.blog tr:nth-child(even){
+    background:#71ecb0;
+}
+.blog td:nth-child(3){
+    width:40%;
+}
+.blog td:nth-child(3){
+    max-width:40%
+    width:40%;
+}
+.blog td:nth-child(4){
+    width:40%;
+}
+.blog td textarea{
+    width:100%;  
+}
+.titre{
+    font-weight:bold;
+}

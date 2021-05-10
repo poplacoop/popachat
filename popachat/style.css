@@ -1,0 +1,330 @@
+body{
+    color:color;
+    text-align:center;
+    background:#80cbb4;
+}
+
+#deconnexion{
+    float:right;
+}
+
+#nom {
+    float:left;
+}
+
+input{
+    width:inherit;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    overflow:hidden;
+}
+
+
+/*td{
+    width:150px;
+}*/
+date.td{
+    width:300px;
+}
+
+table.menu{
+    width: 30%;
+}
+
+table.menu tr td{
+    height:50px;
+    vertical-align:middle;
+}
+
+
+
+
+table.command{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    width:100%;
+    height:100%;
+    line-height:100%;
+    text-align:center;
+}
+.welcome{
+    width:100%;
+    float:left;
+
+}
+.topLeft{
+    width:90%;
+
+    text-align:center;
+    margin:auto;
+}
+
+
+.topBanner{
+    width:100%;
+}
+
+.choix{
+    width:100%;
+    float:left;
+}
+.famille{
+    width:100%;
+    float:right;
+}
+.split{
+width:100%;
+}
+.liste{
+width:100%;
+}
+
+
+.theList{
+    font-size:12px;
+}
+
+.theList table{
+    width:800px;
+}
+.theList td{
+    text-align:center;
+    overflow:hidden;
+
+}
+.theList tr td:first-child{
+    width:120px;
+    text-align:center;
+    min-width:120px;
+
+}
+
+.theList tr td:first-child{
+    width:120px;
+    
+}
+
+.theList td input{
+    width:inherit;
+
+}
+.theList td:nth-child(2) input{
+    width:100px;
+    min-width:120px;
+
+}
+.theList td:nth-child(3),.theList td:nth-child(4),.theList td:nth-child(5),.theList td:nth-child(7),.theList td:nth-child(8),.theList td:nth-child(9),.theList td:nth-child(4){
+    width:30px;
+    min-width:30px;
+    max-width:30px;
+}
+
+
+
+.theList tr td:nth-child(2){
+    width:100px;
+    min-width:100px;
+    text-align:center;
+
+}
+
+#quantite, #price
+{
+    width:110px;
+    min-width:110px;
+}
+
+.price{
+    width:50px;
+    min-width:70px;
+    max-width:70px;
+    
+    display: block;
+    top:0;
+    left:0;
+}
+
+.theList tr td:nth-child(3){
+    width:300px;
+    min-width:300px;
+    text-align:left;
+
+}
+
+.theList tr td:nth-child(8){
+    min-width:50px;
+    width:50px;
+    text-align:center;
+    
+}
+
+.theList tr td:nth-child(9){
+    width:30px;
+    text-align:center;
+    color:green;
+}
+.theList tr td:nth-child(11){
+    width:70px;
+    text-align:center;
+
+}
+
+
+.theList tr td:nth-child(12),.theList tr td:nth-child(13){
+    width:10px;
+    min-width:10px;
+    text-align:center;
+    
+}
+
+.ajout{
+    clear:left;
+}
+
+
+.clr{
+    clear:left;
+}
+.center{
+    margin:auto;
+    width:80%;
+}
+
+img.imgErase,img.imgEdit,img.imgPrice,.imgQuantite,.imgStock,img.imgGraph,.imgIcon,.imgPharma{
+   width:20px; 
+}
+.recover{
+    background:#beffbe;
+}
+.choose table{
+    background:#e6f9ff;;
+}
+
+.myGreenTable table select {
+    background:#e3ffe3;
+
+}
+.myGreenTable table {
+    background:#e3ffe3;
+
+}
+
+.myRedTable table{
+    background:#f9c7ad;;
+}
+.myRedTable select {
+    background:#f9c7ad;;
+}
+.backgroundRed{
+    background:red;
+}
+.saisie{
+    background:lightGreen;
+}
+#fournisseurDrop{
+    width:100%;
+    min-width:150px;
+}
+#quantite{
+    min-width:50px;
+    color:blue;
+}
+#inserer{
+    min-width:80px;
+}
+#init{
+    min-width:80px;
+}
+#inserer button,#init button{
+    width:100%;
+}
+
+#date{
+    max-width:130px;
+    min-width:130px
+}
+.locked{
+    background:#d3ffd3;
+}
+.unlocked{
+    background:#ffdada;
+}
+#workflow img{
+    width:50px;
+}
+#workflow{
+    margin:20px;
+}
+#nb,#total{
+    font-size:20px;
+    font-weight:bold;
+    padding:15px;
+    
+}
+#workflow td table {
+    border:none;
+}
+table.ventes {
+    background:#f9e8c1;
+    width:60%;
+    paading:10px;
+}
+.stock{
+    column-span: all;
+    background:#efdbff;
+    text-align:center;
+}
+tr.menu_auth{
+    background:#66ccff;
+    color:black;
+}
+.realErase{
+    background:red;
+}
+.lesLiens{
+    background:#e0ffe6;
+    
+    width:80%;
+    margin:auto;
+    padding:20px;
+    height:fit-content;
+}
+.lesLiens div {
+    background:#80cbb4;
+    padding:10px;
+}
+
+.lesLiens div div{
+    background:#55b787;
+    width:40%;
+    margin:auto;
+    
+    
+}
+.lesLiens {
+    color:white;
+    background:#c2e6db;
+}
+.lesLiens div div:nth-child(odd)  {
+    
+    
+    background:#478466;
+}
+.lesLiens a{
+    color:white;
+}
+

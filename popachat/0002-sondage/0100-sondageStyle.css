@@ -1,0 +1,72 @@
+body{
+    background:#F9F2A1;
+    padding:10px;
+}
+
+#sondage{
+    background:#657721;
+    display:flex;
+    text-align:left;
+    padding:10px;
+    flex-direction:column; 
+    padding:10px;
+}
+.question{
+    flex-basis:auto;
+    background:#F9F2A1;
+    padding:10px;
+
+    
+}
+.answer{
+    display:flex;
+    justify-content:flex-start;
+    background:#7E8B4E;
+    color:white;
+
+    
+}
+.answerCenter{
+    justify-content:center;
+}
+.answerCenter textarea{
+    width:80%;
+}
+.input{
+    flex-basis:auto;
+    padding:20px;
+}
+.answerCol,.answerCol4{
+    flex-direction:column;
+    flex-wrap:wrap;
+    display:flex;
+    max-height:140px;
+    background:#7E8B4E;
+    color:white;
+}
+.answer div{
+    padding:20px;
+}
+div.mybtn{
+    display:flex;
+    
+    width:100%;
+}
+
+div.mybtn div:first-child{
+    width:60%;
+
+}
+div.mybtn div:nth-child(2){
+    
+
+}
+
+.ques1{
+    width:100%;
+}
+.incomplet{
+    font-size:20px;
+    background:#f48230;
+    padding:30px
+}

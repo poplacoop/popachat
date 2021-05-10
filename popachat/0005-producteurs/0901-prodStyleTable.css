@@ -1,0 +1,97 @@
+
+.creation {
+    color:black;
+    width:100%;
+}
+.creation td.designation{
+    width:30%;
+}
+.creation td.conditionnement{
+    width:5%;
+}
+.creation th{
+    overflow:hidden;
+}
+
+.creation th.tri,.creation th.departement,.creation th.famille,creation th.fournisseur, th.tva,
+.creation td.tri,.creation td.departement,.creation td.famille,creation td.fournisseur, td.tva{
+    max-width:50px;
+    min-width:50px;
+    width:50px;
+}
+.creation tr th{
+    background:#c1dcc1;
+}
+
+#listeCommande .creation tr td{
+    color:black;
+    background:#e3ffe3;  /*light green*/
+}
+#itemsList table.creation tr {
+    background:lightyellow;
+}
+#itemsList .creation .chosen{
+    background:orange;
+}
+
+
+.choix table tr td.ean,.choix table tr th.ean{
+    max-width:130px;
+    min-width:130px;
+    width:130px;
+
+}
+
+.choix table tr td.refFour,.choix table tr th.refFour{
+    max-width:60px;
+    min-width:60px;
+    width:60px
+      
+}
+.choix table tr td.designation,.choix table tr th.designation{
+    width:100%;
+    max-width:600px;
+}
+.choix table tr th.tri,.choix table tr th.departement,.choix table tr th.fournisseur,th.valid,th.erase,th.link,
+.choix table tr td.tri,.choix table tr td.departement,.choix table tr td.fournisseur,td.valid,td.erase,td.link{
+    max-width:50px;
+    min-width:50px;
+    width:50px;
+       
+}
+
+.choix table tr th.prixAchat,
+.choix table tr td.prixAchat
+{
+    max-width:60px;
+    min-width:60px;
+    width:60px;
+}
+.choix table tr th.uniteVente,
+.choix table tr td.uniteVente
+{
+    max-width:30px;
+    min-width:30px;
+    width:30px;
+}
+
+
+
+.creation tr td.designation button{
+    width:100%;
+}
+.creation tr td.famille{
+    float:none;
+    /*width:inherit;*/
+}
+
+td.titre button{
+    width:100%;
+
+}
+.rupture button{
+    background:yellow;
+}
+.colis input{
+    width:50px;
+}

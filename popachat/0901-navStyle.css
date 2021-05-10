@@ -1,0 +1,22 @@
+#topBanner{
+    display:float;
+}
+
+.rightNav{
+    float:right;
+    
+}
+.leftNav{
+    float:left;
+
+}
+
+.rightNav,.leftNav{
+    /*background:#acfd8f;*/
+    width:10%;
+    /*height:100vh;*/
+}
+
+.rightNav a, .leftNav a{
+    color:black;
+}

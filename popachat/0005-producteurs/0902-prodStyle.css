@@ -1,0 +1,487 @@
+
+.navActive,.rightNav div{
+    background:#c2e6db;
+    color:white;
+}
+
+.navDisabled{
+    background:grey;
+    color:black;
+}
+
+.container-fit{
+    width:fit-content
+}
+
+form.fournisseur,form.commande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.chooseList tr td button{
+    width: 100%;
+
+}
+.choixFournisseur{
+    background:yellow;
+    overflow:scroll;
+    height:80vh;
+
+    text-align: center;
+    width: 100%;
+}
+
+.chosen{
+    background:orange;
+    width:60%;
+    margin:auto;
+
+}
+
+.chooseList{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /*overflow:scroll;
+    height:80vh;*/
+    margin-right:10%;
+    
+}
+.chooseList table td:first-child{
+    max-width:20px;
+}
+
+.orange{
+    color:orange;
+}
+
+.progress0{
+    background:pink;
+}
+.progress1{
+    background:red;
+}
+.progress2{
+    background:#0078ff;
+}
+.progress3{
+    background:yellow;
+}
+.nbzero{
+    background:red;
+}
+#cmdbtn td:nth-child(4){
+    display:flex;
+}
+#cmdbtn td:nth-child(4) span{
+    flex:auto;
+}
+#disabled{
+    background:gray;
+}
+.leftMargin{
+    margin-left:10%;
+}
+#creerCommande{
+    background:violet;
+    width:fit-content;
+    /*display:inline-block; */
+    display:inline-grid; 
+    grid-template-columns: auto auto;
+    text-align:center;
+    border-radius:7px;
+}
+
+#fournisseurMenu{
+    background:white;
+    width:fit-content;
+    /*display:inline-block; */
+    display:inline-grid; 
+    grid-template-columns: auto auto;
+    text-align:center;
+    border-radius:7px;
+}
+
+
+
+#fournisseurMenu button{
+    width:100%;
+    background:violet;
+    border-radius:7px;
+}
+
+#creerCommande div:first-child{
+    background:inherit;
+    grid-column:1/3;
+    
+}
+
+
+
+#creerCommande div span{
+    width:100px;
+}
+
+.theCommand {
+    color:black;
+}
+.theCommand td.designation{
+    width:30%;
+}
+.theCommand td.conditionnement{
+    width:5%;
+}
+.theCommand th{
+    overflow:hidden;
+}
+
+.theCommand th:nth-child(4),.theCommand th:nth-child(5),.theCommand th:nth-child(6){
+    max-width:50px;
+}
+.theCommand tr th{
+    background:#c1dcc1;
+}
+
+/*#listeCommande .theCommand tr td{
+    color:black;
+    background:#e3ffe3;  
+//}*/
+#itemsList table.theCommand tr {
+    background:lightyellow;
+}
+#itemsList .theCommand .chosen{
+    background:orange;
+}
+/* The range  */
+#myRangeBar{
+    width:100%;
+}
+
+.theRange{
+    display:flex;
+    width:fit-content;
+    margin:auto;
+    background:#EAC56A;
+    padding:5px;
+}
+.theRange .text:first-child{
+min-width:200px;
+}
+#text2{
+min-width:100px;
+}
+
+#inputRange{
+    min-width:50px;
+    text-align:center;
+}
+
+/*.theRange span.text{
+    width:100%;
+}*/
+
+
+
+#myRange{
+    background:gray;
+    color:white;
+    width:50px;
+}
+.theRange input.form-check-input{
+width:50px;
+}
+
+
+#flexSwitchCheckDefault{
+    width:50px;
+    height:25px;
+}
+
+/* */
+
+.designation button{
+    width:100%;
+}
+.icon{
+    width:25px;
+}
+.fourTbl tr td,.commTbl tr td{
+    min-width:40px;
+}
+
+.fourTbl tr td:nth-child(2){
+    min-width:400px;
+}
+.commTbl tr td:nth-child(2){
+    min-width:70px;
+}
+
+#designationText{
+    width:100%;
+    height:5rem;
+}
+
+#creationTable{
+    border:0px;
+}
+
+#creationTable tr td:nth-child(3){
+    
+    border:0px;
+    width:20%
+}
+.inputRed{
+    background:red;
+    color:white;
+}
+.inputGreen{
+    color:green;
+}
+
+.myButton{
+    background-color: #8102d1;
+    color:white;
+}
+
+input.myButton:checked{
+    background-color: #8102d1;
+    color:white;
+}
+#prixAchatDiv{
+    display:float;
+}
+#prixAchatDiv div{
+    float:left;
+    height:25px;
+    
+}
+.troisMenus{
+    display:flex;
+    justify-content:space-around;
+    padding:5px;
+    
+}
+.troisMenus div{
+    width: 70px;
+    background: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+#enregistreBonStock{
+    text-align:center;
+    max-width:250px;
+    margin:auto;
+    background:lightpink;
+    border-radius: 7px;
+    padding:5px;
+}
+.failed{
+    color:green;
+    background:white;
+}
+
+#import{
+    color:black;
+    background:#cfffcf;
+    width:25%;
+    border-radius:7px;
+    padding:5px;
+    margin:auto;
+
+}
+.franco{
+    background:#c2f9c2;
+    margin:auto;
+    width:50%;
+}
+.nofranco{
+    background:red;
+    margin:auto;
+    width:50%;
+}
+.choose{
+    color:black;
+}
+.connexion{
+    background:orange;
+    color:black;
+}
+.hide{
+    display:none;
+}
+.designation button:hover + .hide{
+    display:block;
+}
+.xlsformat th{
+    background:orange;
+}
+.navActive:hover{
+    background:#80cbb4;
+}
+.navSelected{
+    background:#45b35d;
+}
+.graphContainer{
+    position: relative; 
+    max-height:1000px; 
+    max-width:600px;
+    margin:auto;
+}
+canvas{
+    
+}
+.chartjs-hidden-iframe{
+    width:50%;
+    height:50%;
+}
+h4{
+    font-size:14px;
+}
+#override{
+height:50px;
+}
+.redBackground{
+    background:red;
+    padding:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+#listeCommande .theCommand tr td.orangeBk,#theCommand tr td.orangeBk{
+    background:orange;
+}
+#listeCommande .theCommand tr td.redBk,#theCommand tr td.redBk{
+    background:red;
+}
+#listeCommande .theCommand tr td.greenBk,#theCommand tr td.greenBk{
+    background:#baf7ba;
+}
+#listeCommande .theCommand tr td.violetBk,#theCommand tr td.violetBk{
+    background:violet;
+}
+#listeCommande .theCommand tr td.lGreenBk,#theCommand tr td.lGreenBk{
+    background:#c1dcc1;
+}
+#tridisp.clicked{
+    background:red;
+}
+.summary{
+    display:flex;
+    justify-content:center;
+    
+}
+.summary div{
+    text-align:left;
+    background:#55b787;
+}
+.intro{
+    display:flex;
+    justify-content:center;
+    margin-left:10%;
+    
+    
+}
+.intro div{
+    text-align:left;
+    background:#55b787;
+    width:600px;
+    margin:10px;
+}
+.title{
+    font-size:16.0pt;
+    font-weight: bolder;
+    font-family: "Segoe UI","sans-serif";
+    text-align:center;
+}
+.pageTitle
+  {
+    font-size:12.0pt;
+    font-weight: bolder;
+    
+    text-align:left;
+}
+img{
+    width:30px;  
+  }
+div.aide{
+    display:none;
+}
+img.icon:hover + div.aide{
+    display:block;
+}
+#next{
+    background:#c2e6db;
+}
+.imgWide{
+    width:80%;
+}
+.creationProduit{
+    background:yellow;
+    overflow:scroll;
+    height:30vh;
+
+    text-align: center;
+    width: 100%;
+}
+.headerCreationProduit{
+    background:yellow;
+    overflow:scroll;
+
+
+    text-align: center;
+    width: 100%;
+}
+
+.headerCreationProduit td{
+    background:#c1dcc1;
+    overflow:scroll;
+
+
+    text-align: center;
+    width: 100%;
+}
+.nouveau{
+    color:red;
+}
+.salesHistory{
+    background:#55b787;
+}
+.detail{
+    background:#55b787;
+}
+.trop{
+    background:red;
+}
+.pasassez{
+    background:#e4f5f3;
+}
+.ok{
+    background:#80e680;
+}
+#rupture{
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+}
+.nonreconnu{
+    background:orange;
+}
+#choixColonne tr td{
+    max-width:70px;
+    min-width:70px;
+    overflow:hidden;
+    padding:5px;
+    background:#55b787;
+}
+#choixColonne tr th{
+    padding:5px;
+}
+#choixColonne tr td input,#omitXls{
+    min-height:30px;
+    min-width:30px;
+    color:#478466;
+}

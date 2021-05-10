@@ -1,0 +1,5 @@
+prod_articles
+ean;prixAchat;contenance;fournisseur;designation
+3760018760040;4.8;"";24;
+3760018760125;;;24;
+3578465465465;26;100;897;"aie aie aie"
